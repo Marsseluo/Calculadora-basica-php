@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora básica</title>
+</head>
+<body>
+    <form action="calcular.php" method="post">
+        <label for="">
+            Primeiro numero
+            <input type="text" name="num1">
+        </label>
+
+        <label for="">
+            Segundo numero
+            <input type="text" name="num2">
+        </label>
+
+            <br>
+            <br>
+        
+            Operação:<br>
+
+            <label for="">
+                <input type="radio" name="operacao" value="somar">
+                Somar
+            </label>
+
+            <label >
+                <input type="radio" name="operacao" value="subtrair">
+                Substrair
+            </label>
+
+            <label >
+                <input type="radio" name="operacao" value="dividir">
+                Dividir
+            </label>
+
+            <label>
+                <input type="radio" name="operacao" value="multiplicar">
+                Multiplicar
+            </label>
+            
+            <br>
+            <br>
+            
+            <input type="submit" value="Calcular">
+        
+    </form>
+</body>
+</html>
