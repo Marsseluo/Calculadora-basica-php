@@ -30,6 +30,7 @@ switch($operacao){
     case 'multiplicar':
     $calculadora->multiplicar();
     break;
+        
 
 }
 
